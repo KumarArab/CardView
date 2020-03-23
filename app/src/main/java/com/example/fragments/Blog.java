@@ -6,13 +6,17 @@ public class Blog {
     private String desc;
     private String image;
 
-    public Blog(String title, String desc, String image) {
-        this.title = title;
-        this.desc = desc;
-        this.image = image;
+    public Blog() {
+
     }
 
-    public String getTitle() {
+//        Blog(String title, String desc, String image) {
+//        this.title = title;
+//        this.desc = desc;
+//        this.image = image;
+//    }
+
+     String getTitle() {
         return title;
     }
 
@@ -20,7 +24,7 @@ public class Blog {
         this.title = title;
     }
 
-    public String getDesc() {
+     String getDesc() {
         return desc;
     }
 
@@ -28,14 +32,13 @@ public class Blog {
         this.desc = desc;
     }
 
-    public String getImage() {
+     String getImage() {
         return image;
     }
 
     public void setImage(String image) {
         this.image = image;
     }
-    public Blog(){
 
-    }
+
 }
